@@ -11,6 +11,7 @@ metadata:
     backstage.io/kubernetes-id: dogs
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=dogs'
     github.com/project-slug: northlander/dogs
+    argocd/app-name: dogs
 spec:
   type: service
   lifecycle: production
