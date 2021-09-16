@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: dogs
+  description: Dogs is an app that exposes dog breeds through an API
+  links:
+    - url: https://github.com/northlander/dogs
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: production
+  owner: dogs-team
+  system: pets
+  providesApis:
+    - dog-breeds
