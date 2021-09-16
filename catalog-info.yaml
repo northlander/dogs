@@ -7,6 +7,10 @@ metadata:
     - url: https://github.com/northlander/dogs
       title: GitHub Repo
       icon: github
+  annotations:
+    backstage.io/kubernetes-id: dogs
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/instance=dogs'
+    github.com/project-slug: 'northlander/dogs'
 spec:
   type: service
   lifecycle: production
